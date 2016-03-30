@@ -1,0 +1,298 @@
+/*------------------------------------------------------------------
+[Responsive @media Stylesheet]
+
+Project:	Ovni HTML5 template
+Version:	1.0
+Last change:	03/12/2014
+Author: Entiri
+-------------------------------------------------------------------*/
+
+@media (min-width: 1170px)                       {
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    width: 1140px;
+  }
+}
+
+@media (min-width: 992px and max-width: 1170px) {
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    width: 940px;
+  } 
+}
+
+
+
+
+@media (max-width: 991px) {
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    width: 95%;
+}
+.navbar .container {
+  width:100%;
+}
+
+.mean-container .container {
+  width:auto;
+}
+.spacer100, .spacer110, .spacer120, .spacer130, .spacer140, .spacer150 {
+  height:80px !important;
+}
+
+.spacer95, .spacer90, .spacer85, .spacer80, .spacer75, .spacer70, .spacer65 {
+  height:60px !important;
+}
+
+.slider {
+  position:relative;
+  display:inline-block;
+  width:100%;
+  height:auto;
+
+}
+.slider img{
+    width:100%;
+    height:auto;
+
+}
+.home-content {
+  bottom:50px;
+  left:0px;
+}
+
+.blog-item-line {
+  display:none;
+}
+
+.blog-item-content {
+  position:relative;
+  padding-top:30px;
+}
+
+.blog-offset {
+  margin-top:0px;
+}
+
+
+ .services-container .services  {
+   padding:15px 0px;
+    
+
+}
+
+.blog-container {
+  margin-bottom:30px;
+  float: left;
+}
+
+.blog-item-img {  
+  margin-right:50px;
+}
+
+.blog-item-img img {
+    height: 300px;
+    width: 100%;
+}
+
+.load-more {
+  position: relative;
+  display: block;
+  float: right;
+  top: -86px;
+}
+
+.about-image-top {
+  width:100%;
+  height:200px;
+  max-width:280px;
+  position: relative;
+  margin:0px auto;
+  margin-bottom:30px;
+
+
+}
+
+.about-image-bottom {
+  width:100%;
+  height:200px;
+  max-width:280px;
+  position: relative;
+  margin:0px auto;
+  margin-bottom:30px;
+
+}
+
+#about .img-1 {
+  top:0px;
+}
+#about .img-2 {
+  top:0px;
+}
+#about .img-3 {
+  top:0px;
+  left:0px;
+}
+#about .img-4 {
+  top:0px;
+  left:0px;
+}
+
+.contact-padding-left-0 {
+  padding-left:15px;
+  padding-right:15px;
+}
+
+.google-map {
+  margin-bottom:-20px;
+}
+
+.footer {
+  padding:70px 0px 55px 0px;
+}
+
+.footer-logo {
+  margin:0px auto 10px auto;
+}
+
+.footer p {
+  margin:0px 0px 10px 0px;;
+}
+
+}
+
+@media (max-width: 768px) {
+
+.counter {
+  padding:30px 0px 20px 0px;
+}
+
+
+.home-content {
+  bottom:30px;
+  left:0px;
+}
+
+.load-more {
+  position: relative;
+  display: block;
+  float: right;
+  top: 0px;
+}
+
+.home-content h1{
+  margin:0px;
+}
+
+.contact-icon {
+  text-align:left;
+}
+
+.blog-item-content {
+  float:left;
+}
+
+
+.blog-item-img {  
+  position:relative;
+  float:left;
+  width:100%;
+  max-width: 100%;
+  margin:0px;
+
+}
+
+ .item-container {
+    max-width: 380px;
+    width:100%;
+    height: auto;
+    float: left;
+    position: relative;
+    padding: 0px 7px 0 7px;
+}
+
+.counter-top-left-1:before, .counter-top-left-1:after, .counter-bottom-left-1:before, .counter-bottom-left-1:after, 
+.counter-top-right-1:before, .counter-top-right-1:after, .counter-bottom-right-1:before, .counter-bottom-right-1:after, .counter-top-right-2:before, .counter-top-right-2:after, .counter-bottom-right-2:before,  .counter-bottom-right-2:after {
+
+  display:none;
+}
+
+.blog-post-comments ul {
+    margin-left: 0px;
+}
+
+
+.padding-left-0 {
+  padding-left:15px;
+}
+
+.padding-right-0 {
+  padding-right:15px;
+}
+
+.vertical-text {
+  transform: rotate(0deg);
+	margin-left:0px;
+  float:none;
+  position:relative;
+  top:0px!important;
+  margin-bottom: 15px;
+  right:auto;
+  left:0;
+}
+
+.about-image-top {
+  width:100%;
+  height:200px;
+  max-width:280px;
+  position: relative;
+  margin:0px auto;
+  margin-bottom:30px;
+
+}
+
+.about-image-bottom {
+  width:100%;
+  height:200px;
+  max-width:280px;
+  position: relative;
+  margin:0px auto;
+  margin-bottom:30px;
+}
+
+#about .img-1 {
+  top:0px;
+}
+#about .img-2 {
+  top:0px;
+}
+#about .img-3 {
+  top:0px;
+  left:0px;
+}
+#about .img-4 {
+  top:0px;
+  left:0px;
+}
+
+.vt-left {
+  right: auto;
+}
+
+.spacer100, .spacer110, .spacer120, .spacer130, .spacer140, .spacer150 {
+  height:60px !important;
+}
+
+.spacer95, .spacer90, .spacer85, .spacer80, .spacer75, .spacer70, .spacer65 {
+  height:40px !important;
+}
+
+#contact i {
+  margin-bottom:15px;
+}
+
+#contact p {
+  margin-bottom:30px;
+}
+
+}
+
+
